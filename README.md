@@ -10,7 +10,7 @@ The ultimate goal of this project is to develop a model that can accurately pred
 
 Datasets are downloaded from archive.ics.uci.edu website. Flare.data2 dataset has 13 columns and 1066 rows without the header. The database contains 3 potential classes, one for the number of times a certain type of solar flare occured in a 24 hour period. Each instance represents captured features for 1 active region on the sun. The data are divided into two sections. The second section (flare.data2) has had much more error correction applied to the it, and has consequently been treated as more reliable. This informations had refered from archive.ics.uci.edu website.
 
-## Attribute Information:
+## Attribute Information
 
 1. Code for class (modified Zurich class) (A,B,C,D,E,F,H)
 2. Code for largest spot size (X,R,S,A,H,K)
@@ -23,7 +23,7 @@ Datasets are downloaded from archive.ics.uci.edu website. Flare.data2 dataset ha
 9. Area (1 = small, 2 = large)
 10. Area of the largest spot (1 = <=5, 2 = >5)
 
-## From all these predictors three classes of flares are predicted, which are represented in the last three columns.
+## From all these predictors three classes of flares are predicted, which are represented in the last three columns
 
 11. C-class flares production by this region in the following 24 hours (common flares)
 12. M-class flares production by this region in the following 24 hours (moderate flares)
@@ -38,17 +38,21 @@ Datasets are downloaded from archive.ics.uci.edu website. Flare.data2 dataset ha
 5. Interpret the results and conclusion.
 
 ## File Descriptions
+
 * `SolarFlare.csv` : The original dataset from UCI.
 * `SolarFlare_Clean.csv` : The cleaned version of the dataset.
 * `SolarFlare_Analysis.ipynb` : Jupyter notebook containing the data cleaning, data mining and model evaluation process.
 
 ## Results
+
 The results of this project will be presented in the form of visualizations and performance metrics.
 
 ## Conclusion
+
 The conclusion will summarize the findings of the project and discuss the potential implications of the results.
 
 ## References
+
 1. [UCI Solar Flare Dataset](https://archive.ics.uci.edu/ml/datasets/Solar+Flare)
 2. [Solar flares and space weather](https://www.swpc.noaa.gov/phenomena/solar-flares)
 3. [Solar flares and their effects](https://www.nasa.gov/mission_pages/sunearth/spaceweather/index.html)
